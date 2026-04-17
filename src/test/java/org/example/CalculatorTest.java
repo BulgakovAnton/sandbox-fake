@@ -70,4 +70,13 @@ class CalculatorTest {
     void maxShouldReturnFirst() {
         assertEquals(10, calculator.max(10, 3));
     }
+    @Test
+    void minShouldReturnSecond() {
+        assertEquals(3, calculator.min(10, 3));
+    }
+
+    @Test
+    void minShouldReturnFirst() {
+        assertEquals(2, calculator.min(2, 8));
+    }
 }
