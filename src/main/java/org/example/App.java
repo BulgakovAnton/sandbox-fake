@@ -1,6 +1,4 @@
-package com.example;
-
-import org.junit.platform.commons.util.StringUtils;
+package org.example;
 
 public class App {
     public static void main(String[] args) {
