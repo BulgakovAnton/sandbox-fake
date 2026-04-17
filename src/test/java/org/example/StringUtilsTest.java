@@ -60,4 +60,15 @@ class StringUtilsTest {
     void repeatNegativeTimesShouldThrow() {
         assertThrows(IllegalArgumentException.class, () -> stringUtils.repeat("ab", -1));
     }
+
+    @Test
+    void lowerShouldConvertUppercase() {
+        assertEquals("hello", stringUtils.lower("HELLO"));
+    }
+
+    @Test
+    void upperShouldConvertLowercase() {
+
+        assertEquals("hello", stringUtils.upper("HELLO"));
+    }
 }

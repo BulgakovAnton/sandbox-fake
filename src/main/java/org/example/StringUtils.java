@@ -28,4 +28,15 @@ public class StringUtils {
         }
         return input.repeat(times);
     }
+    public String lower(String input) {
+        return input.toLowerCase();
+    }
+
+    public String upper(String input) {
+        return input.toUpperCase();
+    }
+
+
+
+
 }
